@@ -13,4 +13,8 @@
     font-family: 'Poppins', sans-serif;
     font-style: normal;
   }
+
+  .rgba-color {
+    color: rgba(22, 22, 22, 0.8);
+  }
 }
