@@ -497,6 +497,11 @@
       flex-direction: row;
     }
   }
+  .md\:justify-start {
+    @media (width >= 48rem) {
+      justify-content: flex-start;
+    }
+  }
   .md\:gap-5 {
     @media (width >= 48rem) {
       gap: calc(var(--spacing) * 5);
@@ -511,6 +516,11 @@
     @media (width >= 48rem) {
       border-style: var(--tw-border-style);
       border-width: 1px;
+    }
+  }
+  .md\:border-\[\#E8E8E8\] {
+    @media (width >= 48rem) {
+      border-color: #E8E8E8;
     }
   }
   .md\:bg-white {
@@ -606,6 +616,12 @@
   .lg\:gap-\[30px\] {
     @media (width >= 64rem) {
       gap: 30px;
+    }
+  }
+  .lg\:border-0 {
+    @media (width >= 64rem) {
+      border-style: var(--tw-border-style);
+      border-width: 0px;
     }
   }
   .lg\:bg-\[\#161616\] {
